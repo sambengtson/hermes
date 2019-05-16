@@ -367,7 +367,7 @@ func (dt *Flat) HTMLTemplate() string {
                               <tr>
                                 <td align="center">
                                   <div>
-                                    <a href="{{ $action.Button.Link }}" class="button" style="background-color: {{ $action.Button.Color }}; color: {{ $action.Button.TextColor }}" target="_blank">
+                                    <a href="{{ $action.Button.Link }}" class="button" style="background-color: {{ $action.Button.Color }}; color: #FFFFFF;" target="_blank">
                                       {{ $action.Button.Text }}
                                     </a>
                                   </div>

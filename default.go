@@ -237,7 +237,7 @@ func (dt *Default) HTMLTemplate() string {
       width: 200px;
       background-color: #3869D4;
       border-radius: 3px;
-      color: #ffffff;
+      color: #ffffff !important;
       font-size: 15px;
       line-height: 45px;
       text-align: center;
@@ -367,7 +367,7 @@ func (dt *Default) HTMLTemplate() string {
                               <tr>
                                 <td align="center">
                                   <div>
-                                    <a href="{{ $action.Button.Link }}" class="button" style="background-color: {{ $action.Button.Color }}; color: {{ $action.Button.TextColor }};" target="_blank">
+                                    <a href="{{ $action.Button.Link }}" class="button" style="background-color: {{ $action.Button.Color }}; color: #FFFFFF;" target="_blank">
                                       {{ $action.Button.Text }}
                                     </a>
                                   </div>
